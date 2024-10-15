@@ -1,0 +1,21 @@
+The VGG16 (Visual Geometry Group 16-layer) network is a deep convolutional neural network architecture that gained prominence for its simplicity and effectiveness in image classification tasks. Developed by the Visual Geometry Group at the University of Oxford, 
+VGG16 is characterized by its uniform architecture, consisting of 16 layers with learnable weights. The network's design philosophy revolves around the use of small receptive fields (3x3 convolutional filters) stacked together, creating deeper representations 
+of the input image. VGG16 achieved remarkable success in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2014, showcasing its ability to accurately classify images across a wide range of object categories. Its simplicity and robust performance 
+make VGG16 a popular choice for transfer learning and feature extraction in various computer vision applications.
+
+
+ResNet50, a revolutionary deep convolutional neural network architecture introduced in 2015, stands out for its ability to train very deep networks effectively. Developed by Kaiming He and his team, ResNet50 has become a cornerstone in computer vision.
+Key Features:
+
+- Residual Blocks: ResNet50 introduces residual blocks, each equipped with a shortcut connection that skips one or more layers. This innovation addresses the vanishing gradient problem, enabling the training of exceptionally deep networks.
+- Identity Shortcut Connection: In each residual block, the shortcut connection performs identity mapping, directly passing the input to the output. This facilitates the learning of residuals, capturing the difference between the desired output and the input.
+- Bottleneck Design: Deeper layers in ResNet50 utilize a bottleneck design, incorporating 1x1, 3x3, and 1x1 convolutional layers. This design optimizes dimensionality, captures spatial features, and restores dimensionality, enhancing the network's representational capabilities.
+- Global Average Pooling (GAP): ResNet50 replaces traditional fully connected layers with Global Average Pooling, reducing parameters and promoting better generalization, mitigating overfitting.
+- Pre-trained Weights: Widely used with pre-trained weights on datasets like ImageNet, ResNet50's weights encapsulate a hierarchy of features. This makes ResNet50 a potent feature extractor for diverse computer vision tasks.
+
+
+Inception-v3 is a convolutional neural network architecture from the Inception family that makes several improvements including using Label Smoothing, Factorized 7 x 7 convolutions, and the use of an auxiliary classifier to propagate label information lower 
+down the network (along with the use of batch normalization for layers in the sidehead) 1. It is a deep learning model based on Convolutional Neural Networks, which is used for image classification 2. The Inception V3 model architecture consists of a series 
+of layers, each of which is a convolutional layer or a pooling layer. The first layer of the Inception V3 model is a stem layer that is used to reduce the dimensionality of the input image. The stem layer is followed by a series of Inception modules 3. 
+The Inception V3 model used several techniques for optimizing the network for better model adaptation. It has higher efficiency, a deeper network compared to the Inception V1 and V2 models, but its speed isn’t compromised 1.
+
